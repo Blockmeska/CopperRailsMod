@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "copper-rails",
+	"version": "${version}",
+	"name": "Copper Rails",
+	"description": "This mod implements copper rails and copper powered rails",
+	"authors": [
+		"Blockabsbebsh"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/copper-rails/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"blockmeska.mod.TestingMod"
+		],
+		"client": [
+			"blockmeska.mod.TestingModClient"
+		],
+		"fabric-datagen": [
+			"blockmeska.mod.TestingModDataGenerator"
+		]
+	},
+	"mixins": [
+		"copper-rails.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

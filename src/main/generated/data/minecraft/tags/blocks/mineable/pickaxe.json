@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "copper-rails:copper_rail",
+    "copper-rails:powered_copper_rail"
+  ]
+}

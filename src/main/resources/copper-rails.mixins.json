@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "blockmeska.mod.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+	],
+	"client": [
+		"AbstractMinecartMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
