@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "minecraft:stone_pressure_plate"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "X": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "X X",
+    "XIX",
+    "XRX"
+  ],
+  "result": {
+    "count": 6,
+    "item": "copper-rails:copper_detector_rail"
+  }
+}

@@ -15,17 +15,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
-
-        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.COPPER_RAIL)
-                .add(ModBlocks.POWERED_COPPER_RAIL);
-
-        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
-                .add(ModBlocks.COPPER_RAIL)
-                .add(ModBlocks.POWERED_COPPER_RAIL);
-
         getOrCreateTagBuilder(BlockTags.RAILS)
                 .add(ModBlocks.COPPER_RAIL)
-                .add(ModBlocks.POWERED_COPPER_RAIL);
+                .add(ModBlocks.POWERED_COPPER_RAIL)
+                .add(ModBlocks.COPPER_DETECTOR_RAIL);
+                //.add(ModBlocks.COPPER_ACTIVATOR_RAIL);
     }
 }

@@ -9,6 +9,8 @@ public class ModItemGroups {
     private static void addItemsToRedstoneTab(FabricItemGroupEntries entries) {
         entries.add(ModBlocks.COPPER_RAIL);
         entries.add(ModBlocks.POWERED_COPPER_RAIL);
+        entries.add(ModBlocks.COPPER_DETECTOR_RAIL);
+        //entries.add(ModBlocks.COPPER_ACTIVATOR_RAIL);
     }
 
     public static void registerModItems() {

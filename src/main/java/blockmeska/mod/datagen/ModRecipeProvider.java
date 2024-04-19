@@ -36,5 +36,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('R', Items.REDSTONE)
                 .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.POWERED_COPPER_RAIL)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModBlocks.COPPER_DETECTOR_RAIL, 6)
+                .pattern("X X")
+                .pattern("XIX")
+                .pattern("XRX")
+                .input('X', Items.COPPER_INGOT)
+                .input('I', Items.STONE_PRESSURE_PLATE)
+                .input('R', Items.REDSTONE)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.COPPER_DETECTOR_RAIL)));
     }
 }

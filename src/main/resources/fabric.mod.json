@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"blockmeska.mod.TestingMod"
+			"blockmeska.mod.CopperRails"
 		],
 		"client": [
-			"blockmeska.mod.TestingModClient"
+			"blockmeska.mod.CopperRailsClient"
 		],
 		"fabric-datagen": [
-			"blockmeska.mod.TestingModDataGenerator"
+			"blockmeska.mod.CopperRailsDataGenerator"
 		]
 	},
 	"mixins": [
