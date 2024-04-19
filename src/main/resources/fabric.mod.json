@@ -3,7 +3,7 @@
 	"id": "copper-rails",
 	"version": "${version}",
 	"name": "Copper Rails",
-	"description": "Adds copper rails and copper powered rails to Minecraft.",
+	"description": "Adds copper rails, copper powered rails and copper detector rails to Minecraft.",
 	"authors": [
 		"Blockmeska"
 	],
