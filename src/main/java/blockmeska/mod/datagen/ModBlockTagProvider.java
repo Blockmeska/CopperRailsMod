@@ -18,7 +18,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.RAILS)
                 .add(ModBlocks.COPPER_RAIL)
                 .add(ModBlocks.POWERED_COPPER_RAIL)
-                .add(ModBlocks.COPPER_DETECTOR_RAIL);
-                //.add(ModBlocks.COPPER_ACTIVATOR_RAIL);
+                .add(ModBlocks.COPPER_DETECTOR_RAIL)
+                .add(ModBlocks.COPPER_ACTIVATOR_RAIL);
     }
 }

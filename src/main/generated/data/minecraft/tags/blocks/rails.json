@@ -3,6 +3,7 @@
   "values": [
     "copper-rails:copper_rail",
     "copper-rails:powered_copper_rail",
-    "copper-rails:copper_detector_rail"
+    "copper-rails:copper_detector_rail",
+    "copper-rails:copper_activator_rail"
   ]
 }

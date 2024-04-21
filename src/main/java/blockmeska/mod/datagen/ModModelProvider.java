@@ -16,7 +16,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTurnableRail(ModBlocks.COPPER_RAIL);
         blockStateModelGenerator.registerStraightRail(ModBlocks.POWERED_COPPER_RAIL);
         blockStateModelGenerator.registerStraightRail(ModBlocks.COPPER_DETECTOR_RAIL);
-        //blockStateModelGenerator.registerStraightRail(ModBlocks.COPPER_ACTIVATOR_RAIL);
+        blockStateModelGenerator.registerStraightRail(ModBlocks.COPPER_ACTIVATOR_RAIL);
     }
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {}

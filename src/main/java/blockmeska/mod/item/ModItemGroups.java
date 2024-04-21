@@ -10,7 +10,7 @@ public class ModItemGroups {
         entries.add(ModBlocks.COPPER_RAIL);
         entries.add(ModBlocks.POWERED_COPPER_RAIL);
         entries.add(ModBlocks.COPPER_DETECTOR_RAIL);
-        //entries.add(ModBlocks.COPPER_ACTIVATOR_RAIL);
+        entries.add(ModBlocks.COPPER_ACTIVATOR_RAIL);
     }
 
     public static void registerModItems() {

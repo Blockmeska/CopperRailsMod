@@ -14,7 +14,7 @@ public class ModBlocks {
     public static final Block COPPER_RAIL = registerBlock("copper_rail", new RailBlock(FabricBlockSettings.copyOf(Blocks.RAIL)));
     public static final Block POWERED_COPPER_RAIL = registerBlock("powered_copper_rail", new PoweredRailBlock(FabricBlockSettings.copyOf(Blocks.POWERED_RAIL)));
     public static final Block COPPER_DETECTOR_RAIL = registerBlock("copper_detector_rail", new DetectorRailBlock(FabricBlockSettings.copyOf(Blocks.DETECTOR_RAIL)));
-    //public static final Block COPPER_ACTIVATOR_RAIL = registerBlock("copper_activator_rail", new PoweredRailBlock(FabricBlockSettings.copyOf(Blocks.ACTIVATOR_RAIL)));
+    public static final Block COPPER_ACTIVATOR_RAIL = registerBlock("copper_activator_rail", new PoweredRailBlock(FabricBlockSettings.copyOf(Blocks.ACTIVATOR_RAIL)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
